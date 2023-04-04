@@ -1,0 +1,146 @@
+/* Styles pour le corps de la page*/
+
+body {
+  background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styles pour l'en-tête */
+header {
+  background-color: #003366;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.head {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.option {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.option a {
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+/* Styles pour la section du corps */
+.body {
+  margin: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}.recipe {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.recipe h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.recipe .origin {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.recipe .steps {
+  margin-bottom: 10px;
+}
+
+.recipe .rating {
+  display: flex;
+  align-items: center;
+}
+
+.recipe .rating .stars {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.recipe .rating .votes {
+  font-size: 16px;
+}
+.rating{
+  border : 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+button{
+  background-color: transparent;
+  border:solid 1px black;
+  border-radius: 30%;
+}
+.commentaires{
+  position: relative;
+  border: 1px solid;
+  
+  
+}
+.form {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 10px
+}
+
+.form label {
+  font-size: 18px;
+  color: #555555;
+}
+
+.form input[type="number"],
+.form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+.form input[type="submit"] {
+  background-color: #242424;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.form input[type="submit"]:hover {
+  background-color: #fcba03;
+}
+
+
+/* Styles pour le pied de page */
+footer {
+  background-color: #003366;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer strong {
+  font-weight: bold;
+}
+
+

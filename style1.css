@@ -1,0 +1,38 @@
+/* CSS pour le formulaire */
+
+form {
+    max-width: 600px; /* Largeur maximale du formulaire */
+    margin: 0 auto; /* Centrer le formulaire sur la page */
+    padding: 20px; /* Espacement intérieur du formulaire */
+    background-color: #f2f2f2; /* Couleur de fond du formulaire */
+    border-radius: 10px; /* Arrondir les coins du formulaire */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Ombre portée pour donner de la profondeur */
+  }
+  
+  label {
+    display: block; /* Afficher chaque label sur une ligne séparée */
+    margin-bottom: 10px; /* Espacement entre les labels */
+  }
+  
+  input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%; /* Les champs de saisie de texte prennent toute la largeur disponible */
+    padding: 10px; /* Espacement intérieur des champs de saisie */
+    margin-bottom: 20px; /* Espacement entre les champs de saisie */
+    border: none; /* Supprimer les bordures par défaut */
+    border-radius: 5px; /* Arrondir les coins des champs de saisie */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); /* Ombre portée légère pour les champs de saisie */
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50; /* Couleur de fond pour le bouton Enregistrer */
+    color: white; /* Couleur du texte pour le bouton Enregistrer */
+    padding: 10px 20px; /* Espacement intérieur du bouton Enregistrer */
+    border: none; /* Supprimer les bordures par défaut */
+    border-radius: 5px; /* Arrondir les coins du bouton Enregistrer */
+    cursor: pointer; /* Curseur de la souris en forme de main au survol du bouton */
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41; /* Couleur de fond pour le bouton Enregistrer au survol */
+  }
+  
